@@ -33,7 +33,7 @@ else
     if ~exist('matrix','dir')
         mkdir('matrix');
     end
-    save(['matrix/',num2str(n),'_',rStr],'G','-append');
+    save(['matrix/',num2str(n),'_',rStr],'G');
 end
 G = double(G.x);
 
